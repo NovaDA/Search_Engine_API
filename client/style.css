@@ -39,6 +39,10 @@ input[type=text]{
     flex-wrap: wrap;
 }
 
+.card{
+    width: 100%;
+}
+
 
 .img-result{
     width: 10%;

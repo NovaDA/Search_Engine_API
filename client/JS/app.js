@@ -25,31 +25,15 @@ function search(url){
                     <h1 class="title">${values.title}</h1>
                     <p>${values.description}</p>
                     <a href="${values.url}">${values.url}</a>
+                    <form action="${values.url}">
+                    <input type="submit" value="Go to Website" />
+                    </form>
                 </div>`
                 })
                 document.getElementById("cards").innerHTML = data1;
 
     console.log(response.value[0])})
 	.catch(err => console.error(err));
-
-    // fetch('https://fakestoreapi.com/products')
-    //         .then(res => res.json())
-    //         .then(json => {
-    //             let data1 = "";
-    //             json.map((values) => {
-    //                 data1 += `<div class="card">
-    //                 <h1 class="title">${values.title}</h1>
-    //                 <img src="${values.image}" alt="img"  class="img-result">
-    //                 <p>${values.description}</p>
-    //                 <p class="catergory">${values.category}</p>
-    //                 <p class="price">${values.price}</p>
-    //             </div>`
-    //             })
-    //             document.getElementById("cards").innerHTML = data1;
-            
-    //         }).catch((err)=>{
-    //             console.log(err);
-    //         })
 }
 
 

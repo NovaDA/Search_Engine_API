@@ -13,9 +13,9 @@
 }
 
 .container > div{
-  background-color: #f1f1f1;
-  width: 20%;
-  margin: 10px;
+  background-color: #f1f1f121;
+  width: 40%;
+  margin: 5px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
@@ -46,4 +46,23 @@ input[type=text]{
 
 .img-result{
     width: 10%;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .container > div{
+        background-color: #f1f1f121;
+        border-style: none;
+        width: 60%;
+        margin: 5px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 20px;
+      }
+
+      #Moguri-Image{
+        width: 200px;
+    
+    }
 }

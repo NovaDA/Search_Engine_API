@@ -48,6 +48,11 @@ input[type=text]{
     width: 10%;
 }
 
+#search-input{
+    font-size: 32px;
+    padding: 2px;
+
+}
 
 
 @media only screen and (max-width: 720px) {
